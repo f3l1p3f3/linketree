@@ -1,0 +1,102 @@
+@keyframes animacao {
+    from{
+        opacity: 0;
+        transform: translate3d(0px, 60px, 0) scale(50%);
+    }to{
+        opacity: 1;
+        transform: translate3d(0px, 0px, 0px);
+    }
+}
+
+.cardGeral{
+    animation: animacao 3s;
+}
+
+.card-comp {
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0;
+    height: 126px;
+    width: 350px;
+    transition: 0.5s;
+    
+}
+
+
+.card-comp img {
+    background-color: #FFF;
+    width: 60px;
+
+    margin: 10px 0;
+
+}
+
+.title-comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.title-comp p {
+    opacity: 0.6;
+    text-decoration: none;
+    outline: none;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+
+@media (min-width: 768px) {
+      .card-comp {
+        width: 700px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        transition: 0.5s;
+                
+    }   
+
+    .card-comp:hover {
+        scale: 102%;
+    }
+
+    .card-comp img {
+        width: 80px;
+    }
+
+    .title-comp {
+        width: 700px;
+        font-size: 18px;
+    }
+}
+@media (min-width:1024px){
+    .card-comp {
+        width: 800px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        transition: 0.5s;
+                
+    }   
+
+    .card-comp:hover {
+        scale: 102%;
+    }
+
+    .card-comp img {
+        width: 80px;
+    }
+
+    .title-comp {
+        width: 800px;
+        font-size: 18px;
+    }
+}
+
+
