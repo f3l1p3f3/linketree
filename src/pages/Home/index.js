@@ -22,7 +22,7 @@ export default function Home() {
         {
             img: email,
             title: 'E-mail',
-            description: 'Caso tenha interesse , fique a vontade para entrar em contato comigo! felipe.ferreirag3@gmail.com',
+            description: 'Caso tenha interesse , fique a vontade para entrar em contato comigo! felipe.ferreirag3@gmail.com ',
             url: 'mailto:felipe.ferreirag3@gmail.com'
 
         },
@@ -37,12 +37,17 @@ export default function Home() {
             title: 'Instagram',
             description: 'Meu perfil do instagram para vocês me seguirem!',
             url: 'https://www.instagram.com/felipeferreira.jj/'
+        },
+        {
+            img: instagram,
+            title: 'Instagram',
+            description: 'Meu perfil do instagram para vocês me seguirem!',
+            url: 'https://www.instagram.com/felipeferreira.jj/'
         }
 
     ]
 
-
-
+    
     return (
         <>
             <div className='container'>
@@ -55,9 +60,11 @@ export default function Home() {
 
             </div>
             <div className='card'>
-                {link.map((link, index) => {
+
+                {
+                link.map((link, index) => {
                     return (
-                        <div key={index}>
+                        <div key={index} className="div1">
                             <Card links={link} />
 
                         </div>
