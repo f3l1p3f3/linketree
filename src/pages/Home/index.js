@@ -37,14 +37,7 @@ export default function Home() {
             title: 'Instagram',
             description: 'Meu perfil do instagram para vocês me seguirem!',
             url: 'https://www.instagram.com/felipeferreira.jj/'
-        },
-        {
-            img: instagram,
-            title: 'Instagram',
-            description: 'Meu perfil do instagram para vocês me seguirem!',
-            url: 'https://www.instagram.com/felipeferreira.jj/'
         }
-
     ]
 
     
