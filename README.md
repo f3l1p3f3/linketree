@@ -1,7 +1,7 @@
 # clone do linketree
 intuito portfólio
 ## Tecnoloia
-React JS para composição do coódigo .\
+React JS para composição do codigo .\
 
 ## Comando para inicializar a aplicação
 ### npm
@@ -9,7 +9,7 @@ npm start
 
 ## About
 
-Clone\substituição do linketree do intagram, foi utilizado fundamentos de componentização.
+Clone\substituição do linketree do Instagram, foi utilizado fundamentos de componentes.
 
 ### link do projeto
 
