@@ -4,6 +4,7 @@ intuito portfólio
 React JS para composição do codigo .\
 
 ## Comando para inicializar a aplicação
+
 ### npm
 npm start
 
@@ -11,6 +12,3 @@ npm start
 
 Clone\substituição do linketree do Instagram, foi utilizado fundamentos de componentes.
 
-### link do projeto
-
-https://felipeferreira.netlify.app/
