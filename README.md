@@ -6,7 +6,7 @@ React JS para composição do codigo .\
 ## Comando para inicializar a aplicação
 
 ### npm
-npm start
+npm install && npm start
 
 ## About
 
